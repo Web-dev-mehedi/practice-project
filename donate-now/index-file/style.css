@@ -7,7 +7,7 @@
 
 
 /* font */
-
+/* 
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
@@ -16,7 +16,7 @@
 
  .inter {
     font-family: "Inter", sans-serif;
- }
+ } */
 
 
 
@@ -73,6 +73,7 @@ font-size: 20px;
 font-weight: 600;
 padding: 16px 20px 16px 20px;
 border: none;
+cursor: pointer;
 }
 
 
@@ -192,6 +193,7 @@ font-family: Inter;
 font-size: 20px;
 font-weight: 600;
 transition: .5s;
+cursor: pointer;
 }
 
 .donate-today-input button:hover{
@@ -381,4 +383,79 @@ padding: 50px 0px  150px;
     font-size: 20px;
     font-weight: 600;
     border:none;
+    cursor: pointer;
 }
+
+
+
+/* get-my update-section-style-start-here  */
+
+.get-section{
+  padding:0px 0px 100px;
+}
+
+.get-container{
+    width:1120px;
+    margin: 0 auto;
+}
+
+.get-text-wrap{
+     text-align: center;
+     width: 80%;
+     margin: auto;
+}
+
+.get-text-wrap h2{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.get-text-wrap p{
+    color: rgb(112, 112, 112, 0.7);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+}
+
+.get-input-wrap{
+    width:100%;
+    text-align: center;
+    background-color: rgb(255, 244, 214);
+    padding:76px 189px;
+    margin-top: 50px;
+}
+
+.get-input-wrap input{
+    padding: 15px 218px 14px 17px;
+    margin-right: -10px;
+    outline: none;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+background: rgb(217, 217, 217);
+}
+
+.get-input-wrap input::placeholder{
+    color: rgb(170, 159, 159);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.get-input-wrap button{
+    padding: 13px 42px;
+   
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+background: rgb(255, 89, 89);
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+text-transform: capitalize;
+}
+
+/* get-my update-section-style-ends-here  */
