@@ -49,6 +49,31 @@
         letter-spacing: 1px;
     }
 
+
+/* //////////////////////// */
+
+
+    .donate-plan-container{
+        width:90vw;
+        margin:0 auto;
+    }
+
+    .donate-plan-top-content-wrap{
+        padding: 0px 40px;
+
+}
+
+.donate-plan-bottom-content-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap:wrap;
+    margin-top: 50px;
+    padding: 30px;
+ 
+}
+
 }
 
 
@@ -80,6 +105,47 @@
     flex-wrap: wrap;
     margin-top: 50px;
 }
+/* //////////////////////////////// */
+
+.donate-plan-container{
+    width:90vw;
+    margin:0 auto;
+}
+
+.donate-plan-top-content-wrap{
+    padding: 0px 40px;
+
+}
+
+.donate-plan-bottom-content-wrap{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+ 
+}
+
+.donate-plan-card1,.donate-plan-card2 ,.donate-plan-card3{
+    width:calc(50% - 25px);
+}
+
+
+
+.donate-plan-card1, .donate-plan-card2 p ,.donate-plan-card3 p{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+.donate-plan-card1 h2 ,.donate-plan-card2 h2 , .donate-plan-card3 h2{
+font-size: 20px;
+line-height: 36px;
+}
+
+
+
+
 
 }
 
@@ -101,8 +167,58 @@
         justify-content:start;
         align-items: center;
         flex-wrap: wrap;
-        gap: 22px;
-        margin-top: 50px;
-        margin-left: 25px;
+       
     }
+
+/* /////////////////////// */
+
+
+    .donate-plan-container{
+        width:85vw;
+        margin:0 auto;
+    }
+
+    .donate-plan-top-content-wrap{
+        padding: 0px 40px;
+
+}
+
+.donate-plan-bottom-content-wrap{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:45px;
+
+ 
+}
+
+.donate-plan-card1,.donate-plan-card2 ,.donate-plan-card3{
+   width:calc(50% - 25px);
+}
+
+
+
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1150px) {
+    .donate-plan-container {
+        width: 90vw;
+        margin: 0 auto;
+    }
+    
+    .donate-plan-bottom-content-wrap{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        gap:30px;
+    
+     
+    }
+
+    .donate-plan-card1,.donate-plan-card2 ,.donate-plan-card3{
+        width:30%;
+     }
+
 }
