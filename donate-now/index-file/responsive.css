@@ -36,6 +36,16 @@
      font-size: 15px;
   
      }
+
+     .donate-today-card span{
+        width:20vw;
+        height: 50px;
+     font-size: 15px;
+     display: block;
+     text-align: center;
+  
+     }
+
      .donate-today-title h3 {
         font-size: 44px;
     }
