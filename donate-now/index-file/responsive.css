@@ -338,7 +338,7 @@ line-height: 36px;
 
     .donate-today-amount {
         display: flex;
-        justify-content:start;
+        justify-content:center;
         align-items: center;
         flex-wrap: wrap;
        
