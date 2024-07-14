@@ -298,3 +298,87 @@ margin-bottom: 16px;
 
 
 /* <!-- our donate plan-section-style-ends-here --> */
+
+.survive-sec{
+padding: 50px 0px  150px;
+
+}
+
+.survive-container{
+   width: 1120px;
+   margin:0 auto;
+   display: flex;
+   flex-direction: column;
+   gap:80px;
+
+}
+
+.top-survive-wrap{
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: center;
+       align-items: center;
+       gap:100px;
+
+}
+
+.bottom-survive-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+
+.survive-img{
+  width:50%;
+}
+
+.survive-img img{
+   width: 100%;
+   height: 450px;
+   border-radius:6px;
+}
+
+.survive-content{
+     width: 50%;
+     text-align:left;
+}
+
+.survive-content span{
+    color: rgb(112, 112, 112,0.8);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.survive-content p{
+    color: rgb(112, 112, 112,0.8);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.survive-content h2{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size:45px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.survive-content button{
+    padding: 16px 12px 16px 12px;
+    border-radius: 5px;
+    background: rgb(255, 89, 89);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border:none;
+}
