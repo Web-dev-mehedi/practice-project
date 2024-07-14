@@ -146,18 +146,40 @@
      
 }
 
+.get-text-wrap h2{
+   font-size: 40px;
+}
+
+.get-text-wrap p{
+font-size: 15px;
+}
+
 .get-input-wrap{
     padding:60px 0px;
     border-radius: 10px;
 }
 
 .get-input-wrap input{
-    padding: 14px 0px 13px 17px;
+    padding: 15px 0px 13px 17px;
 }
 .get-input-wrap button{
-    padding: 12px 15px;
+    padding: 12px 15px 12px;
 
 } 
+.humble-footer{
+    padding:30px 0px ;
+    }
+    
+    .humble-container{
+         gap: 18px;
+    }
+    
+    .humble-container h1{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+
 
 
 }
